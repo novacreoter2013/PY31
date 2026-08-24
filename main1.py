@@ -8,7 +8,7 @@ pygame.display.set_caption('Adding image and background image')
 
 background_image = pygame.transform.scale(pygame.image.load('image copy.png').convert() , (Screen_Height , Screen_Width))
 
-penguin_image = pygame.transform.scale(pygame.image.load('image.png').convert_alpha() , (200,200))
+penguin_image = pygame.transform.scale(pygame.image.load('imagee.png').convert_alpha() , (200,200))
 
 penguin_rect = penguin_image.get_rect(center=(Screen_Width // 2, Screen_Height// 2 - 30))
 
